@@ -124,7 +124,7 @@ const changeMurderer = function() {
   murderer = 'Mr. Green';
 
   const plotTwist = function() {
-    let murderer = 'Colonel Mustard';
+    let murderer = 'Colonel Mustard'; // declaring a new variable
 
     const unexpectedOutcome = function() {
       murderer = 'Miss Scarlet';
@@ -144,8 +144,8 @@ changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
 
-// The murderer is Mr. Green because that has global scope since there is
-// no let, var, or const in front of it.
+// The murderer is Mr. Green because Miss Scarlett is changing the
+// new murderer variable (Colonel Mustard)
 
 // Episode 8
 const scenario = {
